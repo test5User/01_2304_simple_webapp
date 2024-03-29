@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Form page</title>
+</head>
+<body>
+  <form action="/form" method="get">
+    Name: <input name="userName"><br>
+    Age: <input name="userAge"><br>
+    Gender: <input type="radio" name="gender" value="male" checked>Male
+            <input type="radio" name="gender" value="female">Female<br>
+    Country: <select name="country" >
+              <option>Belarus</option>
+              <option>Russia</option>
+              <option>USA</option>
+             </select><br>
+    Courses:
+      <input type="checkbox" name="courses" value="Java" checked> JAVA
+      <input type="checkbox" name="courses" value="C++"> C++
+      <input type="checkbox" name="courses" value="Java scrip"> Java Scrip<br>
+    <input type="submit" value="Send">
+  </form>
+</body>
+</html>
